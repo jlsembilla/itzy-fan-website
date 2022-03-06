@@ -1,0 +1,36 @@
+body {
+  background-image: url("https://image.winudf.com/v2/image1/Y29tLkl0enlXYWxscGFwZXIubnllbW90X3NjcmVlbl8wXzE1OTE5NTg1OTBfMDg3/screen-0.jpg?fakeurl=1&type=.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+
+.navigation {
+  background-color: aqua;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(0, 192, 199);
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+}
